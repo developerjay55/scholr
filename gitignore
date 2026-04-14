@@ -1,0 +1,17 @@
+# Cloudflare
+.wrangler/
+.dev.vars
+
+# Environment secrets — NEVER commit API keys
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
